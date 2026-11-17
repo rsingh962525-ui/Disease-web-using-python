@@ -1,0 +1,19 @@
+{
+  "best_model": "BernoulliNB",
+  "cv_scores": {
+    "LogisticRegression": 0.9516608486560401,
+    "BernoulliNB": 0.9587156482238953,
+    "SVC": 0.9435873994836935,
+    "RandomForest": 0.9424497740438993,
+    "ExtraTrees": 0.9381479919992527,
+    "TunedRandomForest": 0.9555554144409306,
+    "Ensemble": 0.9584029271917969
+  },
+  "test_accuracy": 0.9711111111111111,
+  "test_macro_f1": 0.9711088597221776,
+  "dataset_source": "Synthetic demo data",
+  "dataset_rows": 4500,
+  "test_rows": 900,
+  "symptom_count": 40,
+  "disease_count": 15
+}
